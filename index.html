@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8' />
+		<title>dom-sanitize demo</title>
+	</head>
+	<body>
+		<h1>dom-sanitize demo</h1>
+		<label>
+			<span>html goes here</span>
+			<textarea id='html-input'></textarea>
+		</label>
+		<label>
+			<span>sanitized result goes here</span>
+			<textarea id='sanitize-input' readonly></textarea>
+		</label>
+
+		<script type='module' src='./src/main.ts'></script>
+		<style>
+			textarea {
+				display: block;
+				min-height: 250px;
+				min-width: 50vw;
+			}
+
+			label {
+				display: block;
+				margin-bottom: 16px;
+			}
+		</style>
+	</body>
+</html>
