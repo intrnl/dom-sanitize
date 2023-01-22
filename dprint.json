@@ -17,7 +17,8 @@
 		"functionExpression.spaceBeforeParentheses": true,
 		"method.spaceBeforeParentheses": true,
 		"getAccessor.spaceBeforeParentheses": true,
-		"setAccessor.spaceBeforeParentheses": true
+		"setAccessor.spaceBeforeParentheses": true,
+		"module.sortImportDeclarations": "maintain"
 	},
 	"json": {},
 	"markdown": {},
